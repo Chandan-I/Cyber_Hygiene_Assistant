@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>🛡 Cyber Hygiene Assistant</title>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f0f4f7, #e8eefc);
+        color: #2c3e50;
+    }
+    header {
+        background: linear-gradient(90deg, #1a5276, #2980b9);
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    header p {
+        margin: 5px 0 0;
+        font-size: 1.2em;
+    }
+    .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: 30px auto;
+    }
+    .card {
+        background: white;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-4px);
+    }
+    h2 {
+        color: #1a5276;
+        border-left: 6px solid #2980b9;
+        padding-left: 12px;
+        margin-bottom: 15px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    ul li {
+        margin: 8px 0;
+        padding-left: 8px;
+    }
+    code {
+        background: #f4f4f4;
+        padding: 4px 6px;
+        border-radius: 6px;
+        font-size: 0.95em;
+    }
+    .highlight {
+        background: #f9fbff;
+        border: 1px solid #d6e4f0;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .diagram {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .panel {
+        flex: 1;
+        padding: 15px;
+        border-radius: 10px;
+        background: #f0f6fc;
+        margin: 10px;
+        box-shadow: inset 0 0 8px rgba(0,0,0,0.05);
+    }
+    .panel h3 {
+        text-align: center;
+        color: #2980b9;
+        margin-bottom: 10px;
+    }
+    .button {
+        display: block;
+        background: #3498db;
+        color: white;
+        padding: 10px;
+        margin: 8px auto;
+        border-radius: 8px;
+        text-align: center;
+        width: 80%;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+    .button:hover {
+        background: #2c80b9;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+    table, th, td { border: 1px solid #d6e4f0; }
+    th, td { padding: 10px; text-align: left; }
+    th { background: #f0f6fc; color: #1a5276; }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #1a5276;
+        color: white;
+        margin-top: 40px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🛡 Cyber Hygiene Assistant</h1>
+    <p>Smart Guide to Secure Your System</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>✨ Introduction</h2>
+        <p><b>Cyber Hygiene Assistant</b> is an all-in-one tool designed to help users analyze, monitor, and strengthen their system’s security posture. It is built for beginners as well as professionals who wish to maintain a healthy and secure computing environment.</p>
+        <p>When you first open the program, you will see a simple dashboard that provides access to every essential feature. This manual helps you understand how to make the most of it.</p>
+        <ul>
+            <li>🔍 <b>Scan your system for vulnerabilities:</b> Detects weak configurations, outdated settings, and potential threats in your PC using automated system analysis.</li>
+            <li>📊 <b>Generate detailed reports:</b> Produces comprehensive scan summaries with timestamps, system state, and identified risks. Reports can be compared with previous scans to track security improvement.</li>
+            <li>🔌 <b>Inspect & close open ports:</b> Identifies running network services and exposed ports. The user can safely close unwanted ones directly through the interface.</li>
+            <li>📂 <b>Export or reload results:</b> Saves scan data in CSV format for professional reporting or reloads the last report for review. Ideal for IT audits or documentation.</li>
+            <li>❓ <b>Practice with the Cyber Security Quiz:</b> A built-in knowledge test designed to strengthen awareness and reinforce learning through random, non-repetitive questions.</li>
+        </ul>
+        <p>The assistant works seamlessly on Windows and uses system-level commands responsibly to collect data without harming user privacy or performance.</p>
+    </div>
+
+    <div class="card">
+        <h2>🖥 GUI Layout</h2>
+        <p>The application window has two main panels:</p>
+        <div class="diagram">
+            <div class="panel">
+                <h3>⬅ Left Panel</h3>
+                <div class="button">🔍 Security Scan</div>
+                <div class="button">❓ Quiz</div>
+                <div class="button">🔌 Open Ports (appears after scan)</div>
+            </div>
+            <div class="panel">
+                <h3>➡ Right Panel</h3>
+                <div class="button">▶ Run Scan</div>
+                <div class="button">📂 Export CSV</div>
+                <div class="button">📑 Open Last Report</div>
+                <div class="button">📘 Manual</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Running a Scan</h2>
+        <p>Click <b>Run Scan</b> (right panel) to start.  
+        After scanning, <b>Open Ports</b> (left panel) becomes available.</p>
+        <div class="highlight">
+            <p><b>Checks performed:</b></p>
+            <ul>
+                <li>🔐 <b>Auto-Login Disabled:</b> Checks Windows registry for saved login credentials that could compromise security.</li>
+                <table>
+                <tr><th>AutoLogin Condition</th><th>Score</th></tr>
+                <tr><td>AutoLogin Disabled</td><td>100</td></tr>
+                <tr><td>AutoLogin Enabled</td><td>0</td></tr>
+                </table>
+                <li>🦠 <b>Antivirus Status:</b> Verifies active protection via Windows Security Center to confirm Defender or third-party AV is running.</li>
+                <table>
+                <tr><th>Antivirus Condition</th><th>Score</th></tr>
+                <tr><td>Antivirus Detected</td><td>100</td></tr>
+                <tr><td>No Antivirus Detected</td><td>0</td></tr>
+                </table>
+                <li>💻 <b>OS Update Status:</b> Uses system logs to confirm your PC is up to date with security patches.</li>
+                <table>
+                <tr><th>Status</th><th>Score</th><th>Advice</th></tr>
+                <tr><td>STATUS_PASS</td><td>100</td><td>Windows Update service running and recent updates present (see evidence).</td></tr>
+                <tr><td>STATUS_WARN</td><td>70</td><td>Windows Update service is running but could not determine recent updates.</td></tr>
+                <tr><td>STATUS_WARN</td><td>40</td><td>Windows Update service not running or could not be queried. Ensure updates are enabled.</td></tr>
+                <tr><td>Else</td><td>0</td><td>Updates unavailable or unknown.</td></tr>
+                </table>
+                <li>📶 <b>Wi-Fi Security:</b> Ensures the current Wi-Fi network uses modern encryption like WPA2/WPA3.</li>
+		<table>
+		<tr><th>Wi-Fi Condition</th><th>Score</th></tr>
+		<tr><td>WEP / Open Network</td><td>0</td></tr>
+		<tr><td>WPA2 / WPA3 Secure</td><td>100</td></tr>
+		<tr><td>Wi-Fi Off or Not Connected</td><td>100</td></tr>
+		</table>
+                <li>🔥 <b>Firewall Status:</b> Confirms that Windows Firewall is enabled across all network profiles.</li>
+                <table>
+                <tr><th>Profile</th><th>Condition</th><th>Score</th></tr>
+                <tr><td>Public</td><td>Firewall Enabled</td><td>50</td></tr>
+                <tr><td>Private</td><td>Firewall Enabled</td><td>30</td></tr>
+                <tr><td>Domain</td><td>Firewall Enabled</td><td>20</td></tr>
+                <tr><td colspan="3"><b>Total:</b> Sum of enabled profiles (max 100).</td></tr>
+                </table>
+                <li>🔌 <b>Open Ports Listening:</b> Lists ports and processes from <code>netstat -ano</code> and lets you close them safely.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🔌 Open Ports Tab</h2>
+        <p>The Open Ports tab is a crucial feature that allows users to monitor which applications are listening on network ports. It helps in detecting suspicious activity or unnecessary services that might expose your system to threats.</p>
+        <table>
+        <tr><th>Status</th><th>Score</th><th>Advice</th></tr>
+        <tr><td>STATUS_PASS</td><td>100</td><td>No open listening ports detected (or requires privileged enumeration).</td></tr>
+        <tr><td>STATUS_WARN</td><td>60</td><td>Open listening ports detected. Review and close unused ones. Run as admin for better details.</td></tr>
+        <tr><td>STATUS_WARN</td><td>50</td><td>Could not enumerate connections: &lt;error&gt;.</td></tr>
+        </table>
+        <ul>
+            <li>🌐 <b>Address →</b> Shows the IP address and port number currently in use.</li>
+            <li>🆔 <b>PID →</b> Displays the Process ID (PID) of the program linked with that port.</li>
+            <li>⚙ <b>Process →</b> Identifies which application is responsible for the connection.</li>
+            <li>🛠 <b>Services →</b> Lists the background Windows service associated with that port, if any.</li>
+        </ul>
+        <p><b>Closing a Port:</b> Select a suspicious or unused port and click <b>CLOSE Selected Port</b>. The program will safely terminate the process linked with that port after user confirmation. This helps prevent hackers from exploiting open connections.</p>
+        <p><b>Example:</b> If you find a port linked to an unknown process like <i>abc123.exe</i>, you can close it directly from the app to stop the potential threat immediately.</p>
+        <p>💡 <i>Tip:</i> It is normal for essential system processes like “System” or “svchost.exe” to have open ports. Avoid closing them unless you are sure they are unsafe.</p>
+    </div>
+
+    <div class="card">
+        <h2>📂 Reports</h2>
+        <p>The Reports feature helps users maintain records of all system scans for analysis and comparison.</p>
+        <ul>
+            <li>📂 <b>Export CSV:</b> After completing a scan, click this button to save the full results in a CSV file. You can open this file later using Excel or Google Sheets to create professional documentation.</li>
+            <li>📑 <b>Open Last Report:</b> Instantly reloads the previous scan results. Useful when you want to review older data or compare before-and-after security states.</li>
+        </ul>
+        <p>Each report contains the system name, timestamp, scan summary, detected issues, and security recommendations. The data is stored locally, ensuring that no information is shared externally.</p>
+        <p><b>Tip:</b> Regularly exporting reports allows organizations or individuals to track security improvements and present them in audits or reviews.</p>
+    </div>
+
+    <div class="card">
+        <h2>❓ Quiz</h2>
+        <p>The Quiz section is designed to engage users and test their cybersecurity awareness. It provides a fun, interactive way to learn about common digital threats and best practices.</p>
+        <ul>
+            <li>🎯 <b>10 Random Questions:</b> Each session generates new, non-repetitive questions based on cybersecurity concepts.</li>
+            <li>➡ <b>Next Question:</b> Moves to the next one without affecting your score — ideal for skipping tricky ones.</li>
+            <li>✅ <b>Correct Answer:</b> Adds +1 to your score and highlights your knowledge strength.</li>
+            <li>❌ <b>Wrong Answer:</b> Displays the correct response so you can learn immediately from mistakes.</li>
+        </ul>
+        <p>The quiz promotes self-learning and is especially useful for students or professionals preparing for cybersecurity certifications. It helps reinforce key principles such as password hygiene, phishing awareness, and network safety.</p>
+        <p>📘 <b>Tip:</b> Use the quiz regularly to keep your knowledge fresh and ready for real-world scenarios.</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>💻 Stay safe. Practice cyber hygiene daily! 🔐</p>
+</footer>
+
+</body>
+</html>

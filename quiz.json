@@ -1,0 +1,487 @@
+[
+  {
+    "question": "You receive an email from your bank asking for your password. What should you do?",
+    "options": ["Ignore it", "Reply with your password", "Click the link and enter details", "Forward to friends"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is the strongest password?",
+    "options": ["qwerty", "123456", "password123", "My$ecureP@ssw0rd!"],
+    "answer": 3
+  },
+  {
+    "question": "What is phishing?",
+    "options": ["A firewall setting", "An antivirus update", "Catching fish with a rod", "A cyberattack tricking users into giving sensitive info"],
+    "answer": 3
+  },
+  {
+    "question": "What does 2FA stand for?",
+    "options": ["Two-Firewall Access", "Two-Frequency Alert", "Two-Factor Authentication", "Trusted File Authorization"],
+    "answer": 2
+  },
+  {
+    "question": "What is ransomware?",
+    "options": ["An antivirus software", "A firewall rule", "A password generator", "Software that encrypts files until payment is made"],
+    "answer": 3
+  },
+  {
+    "question": "Which of the following is NOT a good security practice?",
+    "options": ["Reusing the same password everywhere", "Using 2FA", "Installing antivirus", "Regularly updating software"],
+    "answer": 0
+  },
+  {
+    "question": "What does HTTPS signify?",
+    "options": ["Hyperlink to text server", "Secure connection using SSL/TLS", "High-speed protocol", "Unsafe connection"],
+    "answer": 1
+  },
+  {
+    "question": "Which one is an example of social engineering?",
+    "options": ["Antivirus scan", "Firewall rule", "Phishing email", "Strong password"],
+    "answer": 2
+  },
+  {
+    "question": "What is a VPN used for?",
+    "options": ["To block ads", "To encrypt internet traffic and hide IP", "To install updates", "To speed up the internet"],
+    "answer": 1
+  },
+  {
+    "question": "Which file extension is most suspicious to open from an unknown email?",
+    "options": [".jpg", ".exe", ".pdf", ".txt"],
+    "answer": 1
+  },
+  {
+    "question": "What is a brute-force attack?",
+    "options": ["Encrypting files", "Phishing scam", "Installing antivirus", "Trying all possible passwords until correct one is found"],
+    "answer": 3
+  },
+  {
+    "question": "What is a firewall?",
+    "options": ["A password manager", "An email service", "A computer virus", "A network security system that filters traffic"],
+    "answer": 3
+  },
+  {
+    "question": "What is spyware?",
+    "options": ["A password manager", "Firewall software", "Antivirus software", "Software that secretly monitors user activity"],
+    "answer": 3
+  },
+  {
+    "question": "What is the purpose of encryption?",
+    "options": ["To increase storage", "To delete data", "To protect data confidentiality", "To compress files"],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is an example of biometric authentication?",
+    "options": ["Security question", "PIN code", "Fingerprint", "Password"],
+    "answer": 2
+  },
+  {
+    "question": "What is a Trojan horse in cybersecurity?",
+    "options": ["A strong password", "Firewall setting", "Malware disguised as legitimate software", "An antivirus update"],
+    "answer": 2
+  },
+  {
+    "question": "What is the best way to connect to public Wi-Fi securely?",
+    "options": ["Sharing passwords", "Using a VPN", "Disabling firewall", "Turning off antivirus"],
+    "answer": 1
+  },
+  {
+    "question": "What is spear phishing?",
+    "options": ["Password cracking", "General spam email", "Targeted phishing attack on a specific person or group", "Network firewall breach"],
+    "answer": 2
+  },
+  {
+    "question": "What is the main purpose of an antivirus program?",
+    "options": ["Speed up the internet", "Detect and remove malicious software", "Encrypt files", "Install software updates"],
+    "answer": 1
+  },
+  {
+    "question": "What does DoS stand for?",
+    "options": ["Disk operating system", "Data on Server", "Denial of Service", "Domain of Security"],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is an example of multi-factor authentication?",
+    "options": ["Password only", "PIN only", "Password + OTP", "Fingerprint only"],
+    "answer": 2
+  },
+  {
+    "question": "What is the main purpose of a strong password?",
+    "options": ["To store data", "To prevent unauthorized access", "To speed up login", "To encrypt files"],
+    "answer": 1
+  },
+  {
+    "question": "What is the difference between HTTP and HTTPS?",
+    "options": ["HTTPS is encrypted, HTTP is not", "HTTP is faster", "HTTPS is older", "No difference"],
+    "answer": 0
+  },
+  {
+    "question": "What is a worm in cybersecurity?",
+    "options": ["Self-replicating malware", "Encryption method", "Firewall setting", "Antivirus software"],
+    "answer": 0
+  },
+  {
+    "question": "What is a botnet?",
+    "options": ["Antivirus program", "VPN service", "A firewall system", "A network of infected computers controlled remotely"],
+    "answer": 3
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": ["Password encryption", "Antivirus scanning", "A type of phishing", "Malicious input to exploit database vulnerabilities"],
+    "answer": 3
+  },
+  {
+    "question": "What is the safest way to store passwords?",
+    "options": ["Browser cache", "Notebook", "Excel file", "Password manager"],
+    "answer": 3
+  },
+  {
+    "question": "What is an insider threat?",
+    "options": ["Threat from within an organization", "Phishing email", "Malware", "External hacker"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is NOT malware?",
+    "options": ["Trojan", "Worm", "Firewall", "Ransomware"],
+    "answer": 2
+  },
+  {
+    "question": "What is the purpose of a digital certificate?",
+    "options": ["To delete malware", "To store passwords", "To prove identity and secure communication", "To compress files"],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is the safest file-sharing method?",
+    "options": ["USB drive without scan", "Encrypted cloud storage", "Email attachment", "Public link"],
+    "answer": 1
+  },
+  {
+    "question": "What is shoulder surfing?",
+    "options": ["Hacking into Wi-Fi", "Stealing information by watching someone’s screen", "Installing malware", "Sending spam emails"],
+    "answer": 1
+  },
+  {
+    "question": "What is the primary purpose of a CAPTCHA?",
+    "options": ["To block malware", "To ensure the user is human", "To speed up websites", "To encrypt data"],
+    "answer": 1
+  },
+  {
+    "question": "What should you do if you suspect your computer is infected?",
+    "options": ["Install updates", "Run antivirus scan", "Ignore it", "Unplug monitor"],
+    "answer": 1
+  },
+  {
+    "question": "Which is a form of malware?",
+    "options": ["VPN", "Trojan", "Firewall", "Encryption"],
+    "answer": 1
+  },
+  {
+    "question": "What is the safest way to dispose of sensitive documents?",
+    "options": ["Trash bin", "Shredding", "Recycling", "Burning CDs"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main risk of using the same password everywhere?",
+    "options": ["Passwords expire quickly", "If one account is hacked, all are vulnerable", "It increases storage", "It prevents login"],
+    "answer": 1
+  },
+  {
+    "question": "What is malware?",
+    "options": ["Software designed to protect devices", "Software updates", "Malicious software", "Firewall rules"],
+    "answer": 2
+  },
+  {
+    "question": "What is a keylogger?",
+    "options": ["Records keystrokes", "Password manager", "Firewall", "VPN"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is most at risk of theft?",
+    "options": ["Server in data center", "Laptop in public place", "Desktop at office", "Smart TV at home"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following helps protect wireless networks?",
+    "options": ["Strong Wi-Fi password", "Disabling encryption", "Public sharing", "Default router settings"],
+    "answer": 0
+  },
+  {
+    "question": "What is two-step verification?",
+    "options": ["Firewall update", "Two passwords", "Extra layer of login security", "Malware scan"],
+    "answer": 2
+  },
+  {
+    "question": "What should you do if you get a suspicious attachment?",
+    "options": ["Open it to check", "Delete it immediately", "Forward to friends", "Rename the file"],
+    "answer": 1
+  },
+  {
+    "question": "What is the safest way to verify a link in an email?",
+    "options": ["Click directly", "Hover over it", "Forward it", "Reply to sender"],
+    "answer": 1
+  },
+  {
+    "question": "What is identity theft?",
+    "options": ["Firewall attack", "Malware infection", "Using someone’s personal info illegally", "Strong authentication"],
+    "answer": 2
+  },
+  {
+    "question": "What is the main purpose of a security patch?",
+    "options": ["To clean disk", "To improve speed", "To fix vulnerabilities", "To encrypt data"],
+    "answer": 2
+  },
+  {
+    "question": "Which is an example of strong authentication?",
+    "options": ["Date of birth", "PIN", "Password123", "Fingerprint + OTP"],
+    "answer": 3
+  },
+  {
+    "question": "What is the safest way to update software?",
+    "options": ["Through official sources", "Random websites", "Email links", "Pirated versions"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is an example of phishing?",
+    "options": ["Bank email asking for login", "Password manager prompt", "System update", "Firewall warning"],
+    "answer": 0
+  },
+  {
+    "question": "What is the risk of public USB charging stations?",
+    "options": ["Device overheats", "Juice jacking (data theft)", "Battery drains faster", "Wi-Fi disconnects"],
+    "answer": 1
+  },
+  {
+    "question": "Which is a physical security measure?",
+    "options": ["Firewall", "Antivirus", "CCTV cameras", "Password manager"],
+    "answer": 2
+  },
+  {
+    "question": "What should you do after using public computers?",
+    "options": ["Save passwords", "Clear browsing history and log out", "Leave browser open", "Shut down system"],
+    "answer": 1
+  },
+  {
+    "question": "What is a DDoS attack?",
+    "options": ["Deleting data", "Encrypting files", "Overloading system with traffic", "Password theft"],
+    "answer": 2
+  },
+  {
+    "question": "What is the safest way to back up data?",
+    "options": ["Single hard drive", "Encrypted cloud backup", "No backup", "Sharing via email"],
+    "answer": 1
+  },
+  {
+    "question": "What is a rootkit?",
+    "options": ["Firewall software", "Antivirus program", "Hidden malicious software for control", "Password manager"],
+    "answer": 2
+  },
+  {
+    "question": "What is the safest way to create security questions?",
+    "options": ["Obvious answers", "Public info", "Hard-to-guess answers", "Blank answers"],
+    "answer": 2
+  },
+  {
+    "question": "What is sniffing in cybersecurity?",
+    "options": ["Catching malware", "Network traffic monitoring", "Installing patches", "Encrypting data"],
+    "answer": 1
+  },
+  {
+    "question": "What is tailgating in physical security?",
+    "options": ["Car theft", "Unauthorized person following into secure area", "Hacking Wi-Fi", "Using strong passwords"],
+    "answer": 1
+  },
+  {
+    "question": "What is spam?",
+    "options": ["Malware", "Unsolicited emails", "Phishing", "Firewall breach"],
+    "answer": 1
+  },
+  {
+    "question": "Which is an example of good cyber hygiene?",
+    "options": ["Clicking ads", "Regular software updates", "Using default passwords", "Sharing credentials"],
+    "answer": 1
+  },
+  {
+    "question": "What is a digital signature used for?",
+    "options": ["Encrypting passwords", "Validating authenticity of data", "Firewall settings", "Deleting malware"],
+    "answer": 1
+  },
+  {
+    "question": "What is an air gap in security?",
+    "options": ["Physical separation from networks", "Strong encryption", "Firewall rule", "Antivirus scan"],
+    "answer": 0
+  },
+  {
+    "question": "What is the safest practice for online banking?",
+    "options": ["Public Wi-Fi", "VPN + official website", "Clicking email links", "Saving password in browser"],
+    "answer": 1
+  },
+  {
+    "question": "What is the main goal of social engineering?",
+    "options": ["Encrypting data", "Tricking people into giving access", "Firewall breach", "Antivirus updates"],
+    "answer": 1
+  },
+  {
+    "question": "What is ransomware?",
+    "options": ["Software update", "Malware that locks data for ransom", "Antivirus tool", "Firewall rule"],
+    "answer": 1
+  },
+  {
+    "question": "What is shoulder surfing?",
+    "options": ["Looking over someone's shoulder to steal info", "Surfing the web securely", "Phishing attack", "VPN misuse"],
+    "answer": 0
+  },
+  {
+    "question": "Which of these is a safe password practice?",
+    "options": ["Reusing same password", "Short password", "Password manager", "Using birthdate"],
+    "answer": 2
+  },
+  {
+    "question": "What is a botnet?",
+    "options": ["Network of infected devices", "Firewall setting", "VPN server", "Backup tool"],
+    "answer": 0
+  },
+  {
+    "question": "What is encryption used for?",
+    "options": ["To speed internet", "To protect data", "To delete malware", "To block ads"],
+    "answer": 1
+  },
+  {
+    "question": "What is a Trojan horse?",
+    "options": ["Firewall update", "Malware disguised as legitimate software", "VPN app", "Password manager"],
+    "answer": 1
+  },
+  {
+    "question": "What is the best way to secure mobile devices?",
+    "options": ["Install updates", "Strong passcode", "Avoid unknown apps", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is the safest way to shop online?",
+    "options": ["Click random ads", "Use HTTPS websites", "Public Wi-Fi", "Save card in browser"],
+    "answer": 1
+  },
+  {
+    "question": "What is spyware?",
+    "options": ["Software that secretly monitors activity", "Antivirus", "Firewall tool", "Encryption method"],
+    "answer": 0
+  },
+  {
+    "question": "What is brute force attack?",
+    "options": ["Guessing passwords repeatedly", "Encrypting files", "Phishing email", "Firewall bypass"],
+    "answer": 0
+  },
+  {
+    "question": "What should you do if your account is hacked?",
+    "options": ["Do nothing", "Change password immediately", "Delete account", "Use same password"],
+    "answer": 1
+  },
+  {
+    "question": "What is spear phishing?",
+    "options": ["Generic spam email", "Targeted phishing attack", "Antivirus scan", "Malware update"],
+    "answer": 1
+  },
+  {
+    "question": "What is the safest way to use public Wi-Fi?",
+    "options": ["Without password", "With VPN", "With Bluetooth on", "With file sharing on"],
+    "answer": 1
+  },
+  {
+    "question": "What is multifactor authentication?",
+    "options": ["Using two or more verification methods", "Two firewalls", "Two antiviruses", "Two accounts"],
+    "answer": 0
+  },
+  {
+    "question": "What is the risk of downloading pirated software?",
+    "options": ["Malware infection", "Legal issues", "No updates", "All of the above"],
+    "answer": 3
+  },
+  {
+    "question": "What is whaling in cybersecurity?",
+    "options": ["Catching fish", "Phishing targeting executives", "VPN breach", "Firewall misconfig"],
+    "answer": 1
+  },
+  {
+    "question": "What is the best way to keep software secure?",
+    "options": ["Disable updates", "Update regularly", "Use pirated versions", "Ignore patches"],
+    "answer": 1
+  },
+  {
+    "question": "What is the safest way to handle sensitive data?",
+    "options": ["Share on email", "Encrypt it", "Write on paper", "Save on public cloud"],
+    "answer": 1
+  },
+  {
+    "question": "What is a firewall?",
+    "options": ["Physical barrier", "Network security system", "VPN tunnel", "Malware tool"],
+    "answer": 1
+  },
+  {
+    "question": "What is phishing via SMS called?",
+    "options": ["Vishing", "Smishing", "Spoofing", "Spamming"],
+    "answer": 1
+  },
+  {
+    "question": "What should you do before clicking links?",
+    "options": ["Hover to verify URL", "Click fast", "Forward to others", "Ignore context"],
+    "answer": 0
+  },
+  {
+    "question": "What is the main purpose of VPN?",
+    "options": ["Increase speed", "Encrypt internet traffic", "Block ads", "Update apps"],
+    "answer": 1
+  },
+  {
+    "question": "What is data breach?",
+    "options": ["Accidental file delete", "Unauthorized access to data", "Strong encryption", "Firewall update"],
+    "answer": 1
+  },
+  {
+    "question": "What is password spraying?",
+    "options": ["Using common passwords across many accounts", "Brute force with random strings", "Phishing email", "Antivirus bypass"],
+    "answer": 0
+  },
+  {
+    "question": "What is vishing?",
+    "options": ["Voice phishing via phone calls", "Video hacking", "VPN cracking", "Virtual malware"],
+    "answer": 0
+  },
+  {
+    "question": "What is spoofing?",
+    "options": ["Forging identity to trick systems", "Encrypting files", "Phishing email", "VPN usage"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the safest storage for passwords?",
+    "options": ["Plain text file", "Sticky notes", "Password manager", "Email drafts"],
+    "answer": 2
+  },
+  {
+    "question": "What is a worm?",
+    "options": ["Self-replicating malware", "Firewall rule", "VPN tunnel", "Password tool"],
+    "answer": 0
+  },
+  {
+    "question": "What is the purpose of penetration testing?",
+    "options": ["Find vulnerabilities before hackers do", "Delete malware", "Speed up system", "Encrypt files"],
+    "answer": 0
+  },
+  {
+    "question": "What is the first step after data breach?",
+    "options": ["Hide breach", "Notify affected users", "Ignore it", "Shut down internet"],
+    "answer": 1
+  },
+  {
+    "question": "What is a security audit?",
+    "options": ["Review of security measures", "Firewall update", "Antivirus scan", "Encryption test"],
+    "answer": 0
+  },
+  {
+    "question": "What is cyber hygiene?",
+    "options": ["Personal cleanliness", "Regular security best practices", "Firewall tool", "Antivirus brand"],
+    "answer": 1
+  },
+  {
+    "question": "What is session hijacking?",
+    "options": ["Stealing active login session", "Phishing", "Encrypting data", "Spoofing emails"],
+    "answer": 0
+  }
+]
